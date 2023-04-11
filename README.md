@@ -22,3 +22,8 @@
 ### Login credentials
 login - qa.ajax.app.automation@gmail.com
 password - qa_automation_password
+
+------------------------------------------------------------------------------------------------------------------------
+Для запуску програми потріно в корені проекту створити Python Package в який потрібно помістити .apk 
+файл додатку Ajax. Також потрібно змінити шлях до .apk файлу в 
+utils/android_utils.py, android_get_desired_capabilities() {... 'app': 'Ваш шлях до файлу'}
